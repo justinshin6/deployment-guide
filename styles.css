@@ -1,0 +1,60 @@
+body {
+    background-color: #ffc5e6;
+}
+
+#logoBar {
+    width: 30vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#siteLogo {
+    width: 100%;
+}
+body {
+    display: flex;
+}
+#staffGallery {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.galleryImage {
+    width: 100%;
+    height: auto;
+    height: 300px;
+}
+
+.colorSpecific {
+    color: #ff2644;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self: stretch;
+    background-color: #fffec8;
+    margin: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px black;
+}
+
+@media screen and (max-width: 600px) {
+    #logoBar {
+        display: flex;
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+    }
+
+    #staffGallery {
+        margin-top: 500px;
+    }
+}
